@@ -1,0 +1,114 @@
+.home {
+  height: 850px;
+  background-color: #4b4f59;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home img {
+  width: 390px;
+}
+
+.home__welcome {
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 5px 5px;
+}
+
+.home__see {
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin-right: 10px;
+  color: white;
+  position: relative;
+  display: inline-block;
+  padding: 8px 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  background-color: #262c37;
+  letter-spacing: 2px;
+  font-size: 16px;
+  transition: 0.5s;
+  margin: 12px 0px;
+}
+
+.home__see:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.home__see span {
+  display: block;
+  position: absolute;
+  background: #2894ff;
+}
+
+.home__see span:nth-child(1) {
+  left: 0;
+  bottom: 0;
+  width: 1px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.5s;
+}
+
+.home__see:hover span:nth-child(1) {
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+}
+
+.home__see span:nth-child(2) {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s;
+}
+
+.home__see:hover span:nth-child(2) {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.3s;
+}
+
+.home__see span:nth-child(3) {
+  right: 0;
+  bottom: 0;
+  width: 1px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s;
+  transition-delay: 0.3s;
+}
+
+.home__see:hover span:nth-child(3) {
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform 0.3s;
+  transition-delay: 0.3s;
+}
+
+.home__see span:nth-child(4) {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s;
+  transition-delay: 0.3s;
+}
+
+.home__see:hover span:nth-child(4) {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.3s;
+  transition-delay: 0.3s;
+}

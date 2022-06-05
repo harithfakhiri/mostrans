@@ -1,0 +1,19 @@
+.home__menu {
+  margin-left: 7px;
+}
+
+.Navbar {
+  width: 100vw;
+  height: 100px;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navbar img {
+  position: absolute;
+  left: 39%;
+  width: 22%;
+  margin-bottom: 2px;
+}

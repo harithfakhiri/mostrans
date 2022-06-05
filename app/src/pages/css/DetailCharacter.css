@@ -1,0 +1,71 @@
+.detail__container {
+  width: 96%;
+  background-color: black;
+  margin-left: 2%;
+  margin-top: 3px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 650px;
+  color: white;
+}
+
+.detail__pic {
+  margin-top: 25px;
+}
+
+.detail__pic img {
+  border-radius: 15px;
+  width: 330px;
+}
+
+.detail__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.detail__name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.detail__status {
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 5px 0px;
+}
+
+.detail__spesies {
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 5px 0px;
+}
+
+.detail__gender {
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 5px 0px;
+}
+
+.detail__location {
+  margin: 15px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detail__location select {
+  width: 70px;
+  margin: 8px 0px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#fname {
+  margin: 8px 0px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}

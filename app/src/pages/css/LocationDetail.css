@@ -1,0 +1,47 @@
+.locdetail__container {
+  width: 99.5%;
+  background-color: black;
+  margin-left: 0.25%;
+  margin-top: 3px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 170px;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.locdetail__name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.locdetail__type {
+  font-size: 18px;
+  font-weight: light;
+  margin: 10px 0px;
+}
+
+.locdetail__dimension {
+  font-size: 18px;
+  font-weight: light;
+  margin: 10px 0px;
+}
+
+.locdetail__nochar {
+  font-family: "Lucida Console", "Courier New", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+.locdetail__foto img {
+  width: 100%;
+  margin-top: 40px;
+}

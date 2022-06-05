@@ -1,0 +1,10 @@
+.char__pagination {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 8px;
+}
+
+.char_currentPages {
+  position: absolute;
+  margin-left: 47%;
+}
